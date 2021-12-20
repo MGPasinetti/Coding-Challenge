@@ -1,0 +1,89 @@
+body {
+  background-image: url(/Users/giulypasi/Desktop/MaterialeEsercizioLim/background.jpg);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: -1;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
+
+body > div{
+  background-color: black;
+  padding: 70px;
+  width: 650px;
+  height: 430px;
+  margin: auto;
+  margin-top: 10px;
+  opacity: 0.5;
+  border-radius: 2%;
+  padding: 70px;
+  display: block;
+}
+
+header{
+  text-align: center;
+}
+
+header > img{
+  width: 170px;
+}
+
+h1{
+  color: #00DD00;
+  font-size: 20px;
+  font-family: Futura;
+}
+
+nav{
+  background-color: #00DD00;
+  height: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav > button{
+  margin: 1px;
+}
+
+main{
+  color: white;
+  font-family: Futura;
+  font-size: 10px;
+}
+
+section{
+  padding-top: 20px;
+}
+
+h2{
+  display: inline;
+}
+
+.charge{
+  height: 20px;
+  width: 250px;
+  background-color: orange;
+  border-radius: 5px;
+}
+
+.orange{
+  width: 250px;
+  background-color: #F5B453;
+}
+
+.green{
+  width: 400px;
+  background-color: #00DD00;
+}
+
+.red{
+  width: 100px;
+  background-color: #BE4141;
+}
